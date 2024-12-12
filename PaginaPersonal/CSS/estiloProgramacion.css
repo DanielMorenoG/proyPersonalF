@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgba(0, 101, 183, 0.327);
+    width: 100%;
+    height: 100%;
+    
+}
+.centrado{
+    margin: 30px;
+}
+#formulariocss{
+    align-items: center;
+    background: rgba(0, 101, 183, 0.327);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 25%;
+  
+}
+#superior{
+    margin: 30px;
+    background: rgba(46, 3, 59, 0.582);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#Formulariomain{
+    display: flex;
+    flex-direction: column;
+}
+#multioption{
+display: inline;
+}
+
+.texformulario{
+    color: aliceblue;
+}
+ul{
+    color: rgb(255, 255, 255) ;
+    position: absolute;
+    top: 150px;
+    left: 8%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+a{
+    
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+a img{
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.986);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+li{
+    color: azure;
+    text-decoration: none;
+    margin: 20px;
+}
+#VideoY{
+    position: relative;
+    width: 600px;
+    align-items: center;
+    text-align: center;
+    left: 35%;
+}
+#titulop{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 40%;
+    top: 5%;
+    text-align: center;
+}
+#imagenp{
+    width: 150px;
+    margin: 10px;
+    border-radius: 150%;
+}
+#imagenSesion{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 80%;
+    top: 4%;
+}
+#imagenSesion1{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 70%;
+    top: 4%;
+}
+#imagenCarrito{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 90%;
+    top: 4%;
+}
+#btnCupones{
+    background-color: rgb(7, 81, 124);
+    position: absolute;
+    width: 150px; /*ancho de la caja */
+    height: 50px;/*alto*/
+    padding: 10px;/*espacio entre el contenido y el borde*/
+    border-color: black;
+    top: 80%;
+    left: 75%;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+#textop{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.13);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    text-align:justify;
+    font-size: 30px;
+    padding: 20px;
+    margin: 35px;
+}
+#imagen2{
+    width: 550px;
+    height: 700px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 15px 15px 9px black;
+    float: left;
+}
+#bodyindex{
+    background-image:url(../IMG/FondoProgramacion.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+

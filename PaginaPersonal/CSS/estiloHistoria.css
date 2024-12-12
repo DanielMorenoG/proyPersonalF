@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../IMG/FondoHistoria.jpeg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+header{
+    background: rgba(0, 101, 183, 0.327);
+    width: 100%;
+    height: 100%;
+    
+}
+.centrado{
+    margin: 30px;
+}
+#formulariocss{
+    align-items: center;
+    background: rgba(0, 101, 183, 0.327);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 25%;
+  
+}
+#superior{
+    margin: 30px;
+    background: rgba(59, 3, 56, 0.582);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#Formulariomain{
+    display: flex;
+    flex-direction: column;
+}
+#multioption{
+display: inline;
+}
+
+.texformulario{
+    color: aliceblue;
+}
+ul{
+    color: rgb(255, 255, 255) ;
+    position: absolute;
+    top: 150px;
+    left: 8%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+a{
+    
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+a img{
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.986);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+li{
+    color: azure;
+    text-decoration: none;
+    margin: 20px;
+}
+#Videos{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin: 30px;
+    height: auto;
+}
+#Videos .espacioV{
+
+    width: 800px;
+    height: 400px;
+    margin: 20px;
+
+}
+#Videos .espacioV video{
+    border: solid 4px black;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    
+}
+#VideoY{
+    position: relative;
+    width: 600px;
+    align-items: center;
+    text-align: center;
+    left: 35%;
+}
+#titulop{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 40%;
+    top: 5%;
+    text-align: center;
+    font-size: 35px;
+}
+#imagenp{
+    width: 150px;
+    margin: 10px;
+    border-radius: 150%;
+}
+#imagenSesion{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 80%;
+    top: 4%;
+}
+#imagenSesion1{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 70%;
+    top: 4%;
+}
+#imagenCarrito{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 90%;
+    top: 4%;
+}
+#btnCupones{
+    background-color: rgb(7, 81, 124);
+    position: absolute;
+    width: 150px; /*ancho de la caja */
+    height: 50px;/*alto*/
+    padding: 10px;/*espacio entre el contenido y el borde*/
+    border-color: black;
+    top: 80%;
+    left: 75%;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+#textop{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.39);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    text-align:center;
+    font-size: 30px;
+    padding: 20px;
+    margin: 35px;
+}
+#imagen2{
+    width: 550px;
+    height: 700px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 15px 15px 9px black;
+    float: left;
+}
+#bodyindex{
+    background-image:url(../IMG/FondoHistoria.jpeg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.card{
+    position: relative;
+    width: 550px;
+    height: 480px;
+    margin: 30px;
+    }
+    .card .face{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: .5s;
+    }
+    .card .front{
+        transform: perspective(600px) rotateY(0deg);
+        box-shadow: 0 5px 10px;
+    } 
+    .card .front img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card .front h3{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: white;
+        background: rgba(0, 0, 0, 0.507);
+        text-align: center;
+    
+    }
+    .card .back{
+        transform: perspective(600px) rotateY(180deg);
+        -webkit-transform: perspective(600px) rotateY(180deg);
+        -moz-transform: perspective(600px) rotateY(180deg);
+        -ms-transform: perspective(600px) rotateY(180deg);
+        -o-transform: perspective(600px) rotateY(180deg);
+        background:  rgba(58, 2, 58, 0.418);
+        padding: 15px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 5px 10px black;
+        width: 100%;
+        height: 100%;
+    }
+    .card .back .link{
+        border-top: solid 1px white;
+        height: 50px;
+        line-height: 50px;
+    }
+    .card .back a{
+        color: aliceblue;
+    }
+    .card .back h3{
+        border-bottom: solid 1px black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    
+    .card .back p{
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+    .card:hover .front{
+        transform: perspective(600px) rotateY(180deg);
+        -webkit-transform: perspective(600px) rotateY(180deg);
+        -moz-transform: perspective(600px) rotateY(180deg);
+        -ms-transform: perspective(600px) rotateY(180deg);
+        -o-transform: perspective(600px) rotateY(180deg);
+    }
+    .card:hover .back{
+        transform: perspective(600px) rotateY(360deg);
+        -webkit-transform: perspective(600px) rotateY(360deg);
+        -moz-transform: perspective(600px) rotateY(360deg);
+        -ms-transform: perspective(600px) rotateY(360deg);
+        -o-transform: perspective(600px) rotateY(360deg);
+    }
+    
+    .Tarjeta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgba(73, 73, 73, 0.342);
+
+    
+    }
+    .Inter{
+        width: 100%;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.555);
+    }
+    .Inter h2{
+       color: rgb(255, 255, 255);
+       font-size: 50px;
+       text-shadow: 20px black;
+       
+
+    }
+
